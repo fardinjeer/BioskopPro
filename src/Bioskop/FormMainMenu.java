@@ -43,6 +43,7 @@ public class FormMainMenu extends javax.swing.JFrame implements bioskop{
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jButton1.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
         jButton1.setText("Jadwal Film");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -50,6 +51,7 @@ public class FormMainMenu extends javax.swing.JFrame implements bioskop{
             }
         });
 
+        jButton2.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
         jButton2.setText("Pesan Tiket");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -63,8 +65,10 @@ public class FormMainMenu extends javax.swing.JFrame implements bioskop{
         jLabel2.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         jLabel2.setText("Selamat datang di Bioskop YYI");
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
         jLabel3.setText("Ada yang bisa kami bantu?");
 
+        jLabel5.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
         jLabel5.setText("HELLO");
 
         jButton3.setText("Exit");
@@ -123,7 +127,7 @@ public class FormMainMenu extends javax.swing.JFrame implements bioskop{
                         .addComponent(jButton1)
                         .addGap(16, 16, 16)
                         .addComponent(jButton2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton3)
                         .addGap(31, 31, 31))))
         );
